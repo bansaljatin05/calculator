@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/styling.css">
+	<script type="text/javascript" src="js/dynamic.js"></script>
+</head>
+<body>
+	
+		<table id="Tab" border="color:black">
+			
+			<tr>
+				<th colspan="4"> <span id="resultDis">0</span> </th>
+			</tr>
+			<tr>
+				<td colspan="2"><button class="operator" onclick="myFunction('C')">AC</button></td>
+				<td><button class="operator" onclick="myFunction('/')">/</button></td>
+				<td><button class="operator" onclick="myFunction('*')">x</button></td>
+			</tr>
+			<tr>
+				<td><button class="number" onclick="myFunction(7)">7</button></td>
+				<td><button class="number" onclick="myFunction(8)">8</button></td>
+				<td><button class="number" onclick="myFunction(9)">9</button></td>
+				<td><button class="operator" onclick="myFunction('-')">-</button></td>
+			</tr>
+			<tr>
+				<td><button class="number" onclick="myFunction(4)">4</button></td>
+				<td><button class="number" onclick="myFunction(5)">5</button></td>
+				<td><button class="number" onclick="myFunction(6)">6</button></td>
+				<td><button class="operator" onclick="myFunction('+')">+</button></td>
+			</tr>
+			<tr>
+				<td><button class="number" onclick="myFunction(1)">1</button></td>
+				<td><button class="number" onclick="myFunction(2)">2</button></td>
+				<td><button class="number" onclick="myFunction(3)">3</button></td>
+				<td rowspan="2"><button class="operator" onclick="operate()">=</button></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button class="number" onclick="myFunction(0)">0</button></td>
+				<td><button onclick="myFunction('.')"">.</button></td>
+			</tr>
+
+		</table>
+
+
+</body>
+</html>
