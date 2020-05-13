@@ -1,0 +1,24 @@
+{
+  "name": "calculatorproject",
+  "version": "1.0.0",
+  "description": "This is a directory to learn git and node",
+  "main": "Index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bansaljatin05/calculator.git"
+  },
+  "author": "Jatin Bansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bansaljatin05/calculator/issues"
+  },
+  "homepage": "https://github.com/bansaljatin05/calculator#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
